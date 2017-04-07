@@ -9,7 +9,10 @@ play 60, amp: 100
 
 sleep 2
 
-# Discover Pan + 
+# Discover Pan + ordering
 play 60, amp: 100, pan: -1
 sleep 1
 play 60, amp: 100, pan: 1
+
+# Discover Release + Note mod
+play chord(:A, :minor), release: 2
